@@ -10,9 +10,9 @@ GitHub：https://github.com/kimozhang。
 -------
 
 * 熟练掌握HTML、CSS、JS。
-* 熟练掌握VueJS 全家桶，Element-UI组件库等，轻度使用ReactJS。
-* 熟悉 NodeJS，熟练使用Gulp、Webpack等构建工具。
-* 热爱开源和造轮子。
+* 熟练掌握VueJS 全家桶，Element-UI组件库等，了解并轻度使用过ReactJS。
+* 了解 NodeJS，熟练使用Gulp、Webpack、Rollup等构建工具。
+* 热爱开源。
 
 
 教育背景
@@ -26,32 +26,64 @@ GitHub：https://github.com/kimozhang。
 
 * 2020/06 – 至今 | 寺库网 | 前端开发工程师
 
-  - 中后台系统的开发：基于 vue-element-admin 模板库的二次开发。
+  - 中后台系统的开发/维护
+    - 基于 VueJS+ElementUI+Axios：用户运营系统、会员管理系统等。
+    - 基于 vue-element-admin：直播管理后台系统-商家端、直播管理后台系统-运营端、鉴定师sass系统等。
 
-  - 移动端/微信端H5页面的开发。
+  - APP端/微信端H5页面开发/维护
+    - 基于 VueJS 开发移动端常用组件，包括 Form、FormItem、Input、Button、Confirm、Drawer、Loading、Overlay等。
+    - 基于 RollupJS和TS开发优惠券弹窗库。
+    - 基于VueJS、ZeptoJS、SwiperJS 结合JSBridge 开发和维护各活动页面。
 
 
 * 2018/06 – 2019/12 | 美菜网 | 前端开发工程师
 
-  - 参与开发RAD 模板库：一套包含初始化、本地开发、联调、测试、上线等功能的模板库。
+  - RAD模板库（一期）
+  背景：公司大量中后台项目类似，每个项目都需要从零开始创建，导致开发效率低、复用性难、UI设计不统一等问题，急需一套能够满足前端开发人员初始化、本地开发、联调、测试等环节的模板库。
+  职责： 
+    - 考虑公司中后台项目和开发人员大多是 VueJS 技术栈以及开发成本等问题，选择VueJS + ElementUI + Axios的方案。
+    - 与设计人员讨论决定UI并实现；与后台开发人员规定接口格式。
+    - 功能上包括登陆、菜单权限、面包屑导航、个人信息、换肤、全局loading等。
+    - 集成上包括兼容 Vue-CLI、ESLint、单元测试、Mock。
 
-  - 参与开发RAD组件库：基于element-ui 的二次开发。
-
-  - 中后台系统的开发：基于 RAD。
+  - 中后台系统的开发和维护
+    - 基于RAD的：数据投放平台、销售管理平台、美菜到家平台等。
+    - 非RAD的：CMS内容管理、资源审核平台等。
 
 
 * 2016/06 – 2018/05 | 新东方海威时代 | 前端开发工程师
 
-  - 选课系统重构：针对原有系统功能分散、开发/管理/维护困难等问题，基于VueJS 全家桶对其进行重构。
+  - 选课系统重构
+  背景：原有项目功能分散、开发/管理/维护等问题进行重构。
+  职责：
+    - 考虑开发及后期维护/管理/学习成本等问题，选择VueJS + ElementUI + vue-resource的方案。
+    - 根据SOLID原则，将组件拆分为基础组件、复合组件、页面等；将JS文件拆分为共享方法、工具方法等；将路由和store模块化，使相关路由和state位于同一个文件中避免混淆和污染。
 
   - 移动端/微信端H5 页面的开发
+    基于 VueJS 和 ZeptoJS，开发和维护包括官方首页及其子页面、活动页等项目。
 
 
 * 2013/05 – 2016/05 | 龙图游戏 | 前端开发工程师
 
-  - 整合前端工程化流程：基于Gulp整合前端项目初始化、本地开发、联调、测试、上线等环节的模板库。
+  - 整合前端工程化流程
+  背景：为方便开发前端人员本地开发、联调、测试等环节。
+  职责：基于Gulp及其生态插件，包括基于browser-sync的页面自动刷新和代理、JS uglify及压缩、Less预处理、图片压缩和基于mocha 的测试等环节的集成。
 
-  - jQuery插件库：基于 jQuery 开发出一套能满足公司业务需要的插件库，避免重复开发，提升开发效率。
-  
+  - jQuery插件库
+  背景：为避免重复开发，提升开发效率，基于 jQuery 开发出一套能满足公司业务需求的插件库。
+  职责：包括轮播图、倒计时、弹窗、滚动条、回顶、Tab标签页等插件。
+
   - 移动端/PC端H5页面的开发
+  基于JQuery 和 ZeptoJS，开发和维护包括官方首页及其子页面、活动页、中后台等项目。
+
+
+开源项目
+--------
+
+- create-cool-app：模板库 CLI。
+- vue-element-dialog/vue-element-popup：基于 ElementUI 的 el-dialog 开发的命令式弹窗插件。
+- @cany/rem：基于RollupJS 和 TS，用于移动端将px 转成 rem。
+- @cany/lazyload：基于RollupJS 和 TS，图片懒加载。
+- @cany/react-echarts：基于 ECharts 开发的 ReactJS组件。
+
 
