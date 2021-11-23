@@ -9,7 +9,7 @@ GitHub：https://github.com/kimozhang。
 个人概况
 -------
 
-* 熟练掌握HTML、CSS、JS。
+* 熟练掌握HTML5、CSS3、ES5+。
 * 熟练掌握VueJS 全家桶，Element-UI组件库等，了解并轻度使用过ReactJS。
 * 了解 NodeJS，熟练使用Gulp、Webpack、Rollup等构建工具。
 * 热爱开源。
