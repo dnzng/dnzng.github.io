@@ -9,8 +9,8 @@ GitHub：https://github.com/kimozhang。
 个人概况
 -------
 
-* 熟练掌握HTML5、CSS3、ES5+。
-* 熟练掌握VueJS 全家桶，Element-UI组件库等，了解并轻度使用过ReactJS。
+* 熟练掌握HTML5、CSS3、ES6。
+* 熟练掌握VueJS 全家桶并了解源码，熟练使用ElementUI组件库并了解源码，了解并轻度使用过ReactJS。
 * 了解 NodeJS，熟练使用Gulp、Webpack、Rollup等构建工具。
 * 热爱开源。
 
@@ -42,9 +42,9 @@ GitHub：https://github.com/kimozhang。
   背景：公司大量中后台项目类似，每个项目都需要从零开始创建，导致开发效率低、复用性难、UI设计不统一等问题，急需一套能够满足前端开发人员初始化、本地开发、联调、测试等环节的模板库。
   职责： 
     - 考虑公司中后台项目和开发人员大多是 VueJS 技术栈以及开发成本等问题，选择VueJS + ElementUI + Axios的方案。
-    - 与设计人员讨论决定UI并实现；与后台开发人员规定接口格式。
-    - 功能上包括登陆、菜单权限、面包屑导航、个人信息、换肤、全局loading等。
-    - 集成上包括兼容 Vue-CLI、ESLint、单元测试、Mock。
+    - 对JS、CSS、图片、API、路由和Store等进行模块化和规范化。
+    - 与设计人员讨论决定UI并实现包括登陆、菜单、面包屑导航、个人信息等组件。
+    - 自动化和继续集成上使用Vue-CLI。
 
   - 中后台系统的开发和维护
     - 基于RAD的：数据投放平台、销售管理平台、美菜到家平台等。
@@ -57,7 +57,9 @@ GitHub：https://github.com/kimozhang。
   背景：原有项目功能分散、开发/管理/维护等问题进行重构。
   职责：
     - 考虑开发及后期维护/管理/学习成本等问题，选择VueJS + ElementUI + vue-resource的方案。
-    - 根据SOLID原则，将组件拆分为基础组件、复合组件、页面等；将JS文件拆分为共享方法、工具方法等；将路由和store模块化，使相关路由和state位于同一个文件中避免混淆和污染。
+    - 在文件层面对代码和资源进行模块化，如对JS使用ES Module，对CSS使用 SASS等；
+    - 在设计层面对UI进行组件化，拆分为基础组件、复合组件等。
+    - 使用 Webpack进行自动化的构建、测试、Lint、打包等。
 
   - 移动端/微信端H5 页面的开发
     基于 VueJS 和 ZeptoJS，开发和维护包括官方首页及其子页面、活动页等项目。
