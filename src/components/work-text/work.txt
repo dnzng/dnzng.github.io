@@ -11,7 +11,7 @@
 
 * 熟练掌握 HTML5、CSS3、ES6。
 * 熟练掌握 Vue 全家桶并了解源码；了解并轻度使用 React；了解 Node。
-* 熟练使用 ElementUI、Ant Design等组件库；熟练使用 Webpack、Rollup等构建工具；熟练使用 Git。
+* 熟练使用 ElementUI、Ant Design等组件库；熟练使用Webpack、Rollup等构建工具；熟练使用 Git。
 * 热爱开源。
 
 
@@ -29,7 +29,7 @@
   - 乐高：可视化搭建H5页面的低代码平台
   背景：快速响应活动页需求，提升运营营销效率。
   职责：
-    - 前期调研、论证 mall-cook、imooc-lego等开源项目，以及核心技术文档的编写。
+    - 前期调研、论证mall-cook、imooc-lego等开源项目，以及核心技术文档的编写。
     - 后台页面：
       - 业务组件库：文本、图片、轮播图、倒计时、公告等。
       - 属性操作组件：数字/文本输入框、颜色、对齐、背景、下拉菜单、时间、图片上传等。
@@ -45,7 +45,7 @@
     - 基于 vue-element-admin：直播管理后台系统-商家端、直播管理后台系统-运营端、鉴定师sass系统等。
 
   - APP端/微信端H5页面开发/维护
-    - 基于 Vue 开发移动端常用组件，包括 Form、FormItem、Input、Button、Confirm、Drawer、Loading、Overlay等。
+    - 基于 Vue 开发移动端常用组件，包括Form、FormItem、Input、Button、Confirm、Drawer、Loading、Overlay等。
     - 基于 Rollup 和 TS 开发优惠券弹窗库。
     - 基于 Vue、Zepto、Swiper 结合 JSBridge 开发和维护各活动页面。
 
@@ -55,7 +55,7 @@
   - RAD模板库
   背景：公司大量中后台项目类似，每个项目都需要从零开始创建，导致开发效率低、复用性难、UI设计不统一等问题。
   职责：
-    - 依据公司技术人员技术栈及开发成本选择 Vue+ElementUI的技术方案。
+    - 依据公司技术人员技术栈及开发成本选择 Vue+ElementUI 的技术方案。
     - 和设计人员协调UI。
     - 制定组件开发规范。
 
@@ -69,12 +69,12 @@
   - 选课系统重构
   背景：原项目代码功能混乱，导致开发/管理/维护困难等问题。。
   职责：
-    - 考虑开发及后期维护/管理/学习成本等问题，选择Vue + ElementUI + vue-resource的方案。
+    - 考虑开发及后期维护/管理/学习成本等问题，选择Vue+ElementUI+vue-resource的方案。
     - 在文件层面对代码和资源进行模块化，如对JS使用ES Module，对CSS使用 SASS等；
     - 在设计层面对UI进行组件化，拆分为基础组件、复合组件等。
     - 使用 Webpack 进行自动化的构建、测试、Lint、打包等。
 
-  - 移动端/微信端H5 页面的开发
+  - 移动端/微信端H5页面开发
     基于 Vue 和 Zepto，开发和维护包括官方首页及其子页面、活动页等项目。
 
 
@@ -99,6 +99,6 @@
 - vue-element-dialog/vue-element-popup：基于 ElementUI 的 el-dialog 开发的命令式弹窗插件。
 - @cany/rem：基于 Rollup 和 TS，用于移动端将px 转成 rem。
 - @cany/lazyload：基于 Rollup 和 TS，图片懒加载。
-- @cany/react-echarts：基于 ECharts 开发的 React组件。
+- @cany/react-echarts：基于 ECharts 开发的 React 组件。
 
 
