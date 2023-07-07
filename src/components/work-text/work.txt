@@ -1,17 +1,17 @@
 基本资料
 =========
 
-姓名：张成欣。
-Email：1193055507@qq.com。
-GitHub：https://github.com/kimozhang。
+* 姓名：张成欣。
+* Email：1193055507@qq.com。
+* GitHub：https://github.com/edwdzhang。
 
 
 个人概况
 -------
 
-* 熟练掌握HTML5、CSS3、ES6。
-* 熟练掌握VueJS 全家桶并了解源码，熟练使用ElementUI组件库并了解源码，了解并轻度使用过ReactJS。
-* 了解 NodeJS，熟练使用Gulp、Webpack、Rollup等构建工具。
+* 熟练掌握 HTML5、CSS3、ES6。
+* 熟练掌握 Vue 全家桶并了解源码；了解并轻度使用 React；了解 Node。
+* 熟练使用 ElementUI、Ant Design等组件库；熟练使用 Webpack、Rollup等构建工具；熟练使用 Git。
 * 热爱开源。
 
 
@@ -24,27 +24,40 @@ GitHub：https://github.com/kimozhang。
 工作经历
 --------
 
-* 2020/06 – 至今 | 寺库网 | 前端开发工程师
+* 2022/01 – 2022/07 | 白龙马云行 | 移动前端开发工程师
+
+  - 乐高：可视化搭建H5页面的低代码平台
+  背景：快速响应活动页需求，提升运营营销效率。
+  职责：
+    - 前期调研、论证 mall-cook、imooc-lego等开源项目，以及核心技术文档的编写。
+    - 后台页面：
+      - 业务组件库：文本、图片、轮播图、倒计时、公告等。
+      - 属性操作组件：数字/文本输入框、颜色、对齐、背景、下拉菜单、时间、图片上传等。
+      - 核心功能：拖拽业务组件实时预览、配置业务组件数据实时预览、模拟手机预览、发布、下线。
+    - 移动端页面：根据配置数据显示对应页面。
+
+  - 移动端H5页面的开发和维护。
+
+* 2020/06 – 2021/12 | 寺库网 | 前端开发工程师
 
   - 中后台系统的开发/维护
-    - 基于 VueJS+ElementUI+Axios：用户运营系统、会员管理系统等。
+    - 基于 Vue+ElementUI：用户运营系统、会员管理系统等。
     - 基于 vue-element-admin：直播管理后台系统-商家端、直播管理后台系统-运营端、鉴定师sass系统等。
 
   - APP端/微信端H5页面开发/维护
-    - 基于 VueJS 开发移动端常用组件，包括 Form、FormItem、Input、Button、Confirm、Drawer、Loading、Overlay等。
-    - 基于 RollupJS和TS开发优惠券弹窗库。
-    - 基于VueJS、ZeptoJS、SwiperJS 结合JSBridge 开发和维护各活动页面。
+    - 基于 Vue 开发移动端常用组件，包括 Form、FormItem、Input、Button、Confirm、Drawer、Loading、Overlay等。
+    - 基于 Rollup 和 TS 开发优惠券弹窗库。
+    - 基于 Vue、Zepto、Swiper 结合 JSBridge 开发和维护各活动页面。
 
 
 * 2018/06 – 2019/12 | 美菜网 | 前端开发工程师
 
-  - RAD模板库（一期）
-  背景：公司大量中后台项目类似，每个项目都需要从零开始创建，导致开发效率低、复用性难、UI设计不统一等问题，急需一套能够满足前端开发人员初始化、本地开发、联调、测试等环节的模板库。
-  职责： 
-    - 考虑公司中后台项目和开发人员大多是 VueJS 技术栈以及开发成本等问题，选择VueJS + ElementUI + Axios的方案。
-    - 对JS、CSS、图片、API、路由和Store等进行模块化和规范化。
-    - 与设计人员讨论决定UI并实现包括登陆、菜单、面包屑导航、个人信息等组件。
-    - 自动化和继续集成上使用Vue-CLI。
+  - RAD模板库
+  背景：公司大量中后台项目类似，每个项目都需要从零开始创建，导致开发效率低、复用性难、UI设计不统一等问题。
+  职责：
+    - 依据公司技术人员技术栈及开发成本选择 Vue+ElementUI的技术方案。
+    - 和设计人员协调UI。
+    - 制定组件开发规范。
 
   - 中后台系统的开发和维护
     - 基于RAD的：数据投放平台、销售管理平台、美菜到家平台等。
@@ -54,21 +67,21 @@ GitHub：https://github.com/kimozhang。
 * 2016/06 – 2018/05 | 新东方海威时代 | 前端开发工程师
 
   - 选课系统重构
-  背景：原有项目功能分散、开发/管理/维护等问题进行重构。
+  背景：原项目代码功能混乱，导致开发/管理/维护困难等问题。。
   职责：
-    - 考虑开发及后期维护/管理/学习成本等问题，选择VueJS + ElementUI + vue-resource的方案。
+    - 考虑开发及后期维护/管理/学习成本等问题，选择Vue + ElementUI + vue-resource的方案。
     - 在文件层面对代码和资源进行模块化，如对JS使用ES Module，对CSS使用 SASS等；
     - 在设计层面对UI进行组件化，拆分为基础组件、复合组件等。
-    - 使用 Webpack进行自动化的构建、测试、Lint、打包等。
+    - 使用 Webpack 进行自动化的构建、测试、Lint、打包等。
 
   - 移动端/微信端H5 页面的开发
-    基于 VueJS 和 ZeptoJS，开发和维护包括官方首页及其子页面、活动页等项目。
+    基于 Vue 和 Zepto，开发和维护包括官方首页及其子页面、活动页等项目。
 
 
 * 2013/05 – 2016/05 | 龙图游戏 | 前端开发工程师
 
   - 整合前端工程化流程
-  背景：为方便开发前端人员本地开发、联调、测试等环节。
+  背景：方便开发前端人员本地开发、联调、测试等环节。
   职责：基于Gulp及其生态插件，包括基于browser-sync的页面自动刷新和代理、JS uglify及压缩、Less预处理、图片压缩和基于mocha 的测试等环节的集成。
 
   - jQuery插件库
@@ -76,7 +89,7 @@ GitHub：https://github.com/kimozhang。
   职责：包括轮播图、倒计时、弹窗、滚动条、回顶、Tab标签页等插件。
 
   - 移动端/PC端H5页面的开发
-  基于JQuery 和 ZeptoJS，开发和维护包括官方首页及其子页面、活动页、中后台等项目。
+  基于JQuery 和 Zepto，开发和维护包括官方首页及其子页面、活动页、中后台等项目。
 
 
 开源项目
@@ -84,8 +97,8 @@ GitHub：https://github.com/kimozhang。
 
 - create-cool-app：模板库 CLI。
 - vue-element-dialog/vue-element-popup：基于 ElementUI 的 el-dialog 开发的命令式弹窗插件。
-- @cany/rem：基于RollupJS 和 TS，用于移动端将px 转成 rem。
-- @cany/lazyload：基于RollupJS 和 TS，图片懒加载。
-- @cany/react-echarts：基于 ECharts 开发的 ReactJS组件。
+- @cany/rem：基于 Rollup 和 TS，用于移动端将px 转成 rem。
+- @cany/lazyload：基于 Rollup 和 TS，图片懒加载。
+- @cany/react-echarts：基于 ECharts 开发的 React组件。
 
 

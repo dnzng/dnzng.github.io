@@ -12,7 +12,7 @@
  */
 
 * {
-  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 /**
@@ -60,7 +60,7 @@ pre:not(:empty) {
  */
 
 #style-text {
-  -webkit-transform: translateX(95%);
+  transform: translateX(95%);
   position: absolute;
 }
 
@@ -84,12 +84,12 @@ pre:not(:empty) {
  */
 
 body {
-  -webkit-perspective: 1000px;
+  perspective: 1000px;
 }
 
 #style-text {
-  -webkit-transform: translateX(98.5%) rotateY(-10deg);
-  -webkit-transform-origin: right;
+  transform: translateX(98.5%) rotateY(-10deg);
+  transform-origin: right;
   max-height: 94.5%;
 }
 
@@ -100,7 +100,7 @@ body {
  */
 
 pre:not(#style-text) {
-  -webkit-transform: rotateY(10deg);
-  -webkit-transform-origin: left;
+  transform: rotateY(10deg);
+  transform-origin: left;
 }
 
