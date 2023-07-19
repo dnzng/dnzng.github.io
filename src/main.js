@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import App from './App'
-import 'common/scss/index.scss';
+import App from './App.vue'
+import '@/common/scss/index.scss'
 
 Vue.config.productionTip = false
 
@@ -11,15 +11,15 @@ let app = new Vue({
     this.paused = false
     this.animationSkipped = false
   },
-  render: h => h(App)
+  render: (h) => h(App),
 })
 
 let styleTagEl = document.getElementById('style-tag')
-app.$on('styleAppend', styleText => {
+app.$on('styleAppend', (styleText) => {
   styleTagEl.textContent += styleText
 })
 
-app.$on('styleOverwrite', styleText => {
+app.$on('styleOverwrite', (styleText) => {
   styleTagEl.textContent = styleText
 })
 

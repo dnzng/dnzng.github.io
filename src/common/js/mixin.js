@@ -1,24 +1,31 @@
 import Promise from 'bluebird'
-import { handleChar } from 'common/js/util'
+import { handleChar } from '@/common/js/util.js'
 
 const endOfSentence = /[？！。~：]$/
 const comma = /\D[，；、]$/
 const endOfBlock = /[^/]\n\n$/
 
-const debug = process.env.NODE_ENV !== 'production'
+const debug = import.meta.env.DEV
 
 export const writeMixin = {
   data() {
     return {
       text: '',
-      speed: debug ? 0 : 16
+      speed: debug ? 0 : 16,
     }
   },
   created() {
     this.styleBuffer = ''
   },
   methods: {
-    async writeTo(el, message, index, interval, mirrorToStyle, charsPerInterval) {
+    async writeTo(
+      el,
+      message,
+      index,
+      interval,
+      mirrorToStyle,
+      charsPerInterval
+    ) {
       if (this.$root.animationSkipped) {
         throw new Error('SKIP IT')
       }
@@ -52,8 +59,15 @@ export const writeMixin = {
           // delay infinitely when paused is true
           await Promise.delay(thisInterval)
         } while (this.$root.paused)
-        
-        return this.writeTo(el, message, index, interval, mirrorToStyle, charsPerInterval)
+
+        return this.writeTo(
+          el,
+          message,
+          index,
+          interval,
+          mirrorToStyle,
+          charsPerInterval
+        )
       }
     },
     writeChar(char) {
@@ -66,6 +80,6 @@ export const writeMixin = {
     },
     writeSimpleChar(char) {
       this.text += char
-    }
-  }
+    },
+  },
 }
