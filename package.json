@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "release": "sh scripts/release.sh"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bluebird": "^3.7.1",
