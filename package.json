@@ -1,9 +1,5 @@
 {
-  "name": "resume",
-  "version": "0.0.1",
-  "description": "resume",
   "private": true,
-  "packageManager": "^pnpm@8.6.5",
   "engines": {
     "node": ">=16"
   },
